@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const SUPABASE_URL = 'https://slbgyfzrqdzaarzaxeqn.supabase.co';
-    const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNsYmd5ZnpycWR6YWFyemF4ZXFuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzI0Mjg2OTksImV4cCI6MjA0ODAwNDY5OX0.yvXKN_q5ZaK0V5nqQdFcuZy6KbjZIN8n6s4cIvqFANA';
+    const SUPABASE_URL = 'SUPABASE-URL';
+    const SUPABASE_KEY = 'SUPABASE-KEY';
     const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
     let posts = [];
     let currentCardIndex = 0;
