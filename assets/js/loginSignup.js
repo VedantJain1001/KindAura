@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const supabaseUrl = 'https://czrlstmguoehznaordev.supabase.co';
-    const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN6cmxzdG1ndW9laHpuYW9yZGV2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzI0NDQ2NTMsImV4cCI6MjA0ODAyMDY1M30.JO5wqNnblqmq8fg0AhK87CaACOmVqXVPbebQj6M7v_k';
+    const supabaseUrl = 'SUPABASE-URL';
+    const supabaseKey = 'SUPABASE-KEY';
     const supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
 
     document.getElementById('show-signup').addEventListener('click', function(e) {
