@@ -1,0 +1,232 @@
+@font-face {
+  font-family: 'Amaranth';
+  src: url('../Fonts/Amaranth-Regular.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Amaranth', sans-serif;
+  background-color: #e4dea4;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 7%;
+  width: 100%;
+  background-color: #b8a27d;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header-left,
+.header-center,
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  scale: 0.9;
+}
+
+.header-left .logo {
+  margin-right: 10px;
+}
+
+.header-left .site-name {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.header-right {
+  margin-right: 20px;
+  scale: 0.9;
+}
+
+.header-right .profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.header-right button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  scale: 0.8;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 5%;
+  width: 100%;
+  background-color: #b8a27d;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+
+.footer-left button,
+.footer-center button,
+.footer-right button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 16px;
+  margin: 0 10px;
+  scale: 0.8;
+}
+
+.footer-left button:hover,
+.footer-center button:hover,
+.footer-right button:hover {
+  scale: 1.2;
+  transition: ease-in-out 0.1s;
+}
+
+@font-face {
+  font-family: 'Amaranth';
+  src: url('../Fonts/Amaranth-Regular.ttf');
+}
+
+body {
+  font-family: 'Amaranth', sans-serif;
+  background-color: #e4dea4;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.login-signup-container {
+  margin-top: 10%;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 90%;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-signup-container h1 {
+  font-size: 28px;
+  color: #6d5c36;
+  margin-bottom: 20px;
+}
+
+.login-signup-container p {
+  font-size: 16px;
+  color: #7a6a49;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-size: 14px;
+  color: #6d5c36;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #d0c668;
+  border-radius: 5px;
+  background-color: #faf3e0;
+}
+
+.btn {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #6d5c36;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #5a4d30;
+}
+
+.switch-link {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.switch-link a {
+  color: #6d5c36;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.switch-link a:hover {
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
